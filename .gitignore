@@ -1,0 +1,30 @@
+# folders and files to be ignored by git
+
+############
+## wp-mpdf2
+############
+cache/*
+!cache/.htaccess
+!cache/index.php
+
+tmp/*
+!tmp/.htaccess
+!tmp/index.php
+
+############
+## Composer
+############
+vendor/
+
+############
+## IDEs
+############
+.idea/
+
+############
+## OSes
+############
+[Tt]humbs.db
+[Dd]esktop.ini
+*.DS_store
+.DS_store?
